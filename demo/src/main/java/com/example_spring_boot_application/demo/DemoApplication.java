@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	@RestController
-	class HelloworldController {
+	class HelloWorldController {
 
 		@GetMapping("/")
 		String hello() {
-			return "Hello Docker World !";
+			return "🎉 Hello Docker World ! Welcome Team Darwin ! 🎉 ";
 		}
 	}
 
